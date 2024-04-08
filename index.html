@@ -1,0 +1,210 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    My portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Afnaan Mohammed S </span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Computer Science Engineer.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Few of my ML Projects </h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Siamese Network</h3>
+              <p>
+                
+Dataset Construction:Created a dataset including Anchor, Positive, and Negative images.
+Purpose:Facilitates deep learning model training for image recognition tasks.
+              </p>
+              <ul class="work__list">
+                <li>PyTorch</li>
+                <li>Convolutional Neural Network</li>
+                <li>Siamese Network</li>
+                <li>Deep Learning</li>
+              </ul>
+
+              <div class="work__links">
+                
+                </a>
+                <a href="https://github.com/Afnaan24/Person-Re-identification-using-siamese-network" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              
+            </div>
+          </div>
+
+          
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Credit Card Fraud Detection</h3>
+              <p>
+                Data Balancing with Gen AI: Credit Card Fraud Detection
+
+              </p>
+              <p>
+                PCA,Generative Models,General adversarial networks,Artificial Neural Network
+Problem: Poor performance of binary classifier for credit card fraud detection due to data imbalance.
+Approach: Utilize Generative Adversarial Networks (GANs) from Generative AI to address data imbalance
+and enhance model accuracy.
+              </p>
+              <ul class="work__list">
+                <li>Principle Component Analysis</li>
+                <li>General Adversial Network</li>
+                <li>Artificial Neural Network</li>
+                
+              </ul>
+
+              <div class="work__links">
+                
+                <a href="https://github.com/Afnaan24/Data-Balancing-with-Gen-AI-Credit-Card-Fraud-Detection">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am 21 year old student , currently stuyding Computer Science Engineering , 3rd year at PES Univerity,Bangalore 
+            .
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="/images/web_resume.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/pic.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:afnaan24@gmail.com" class="btn">afnaan24@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Afnaan24" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://leetcode.com/Afnaan_24/" title="Link to Leetcode Profile">
+            <img src="./images/now.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/afnaans/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2024 - Template designed & developed by <a href="https://github.com/Afnaan24" class="link">Afnaan</a>.
+      </p>
+      
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
